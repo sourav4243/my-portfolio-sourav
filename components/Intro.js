@@ -20,11 +20,11 @@ const Intro = () => {
                         <p className='mt-[2px] font-bold mx-1'>Available for new Projects</p>
                     </div>
                     <div className='name text-5xl lg:text-6xl font-bold mt-5'>
-                        <h1>Hi, I'm</h1>
+                        <h1>Hi, I&apos;m</h1>
                         <h1>Sourav Kumar</h1>
                     </div>
                     <div className='flex text-xl font-bold gap-2 mt-2 flex-wrap'>
-                        <h2>I'm a </h2>
+                        <h2>I&apos;m a </h2>
                         <h2><Typewriter
                             options={{
                                 strings: [
@@ -68,7 +68,7 @@ const Intro = () => {
                     </Link>
                 </div>
             </div>
-            
+
             <div className='rounded-full border-2 border-gray-800 w-fit min-w-[250px] shadow-[0_0_35px_rgba(0,0,0,0.7)] m-5 hover:shadow-[0_0_20px_5px_black] hover:scale-103 transition-all hover:border-gray-700'>
                 <div className='rounded-full border-7 border-gray-900 w-fit hover:border-gray-900'>
                     <Image src={Sourav} alt='User Photo' height={250} width={250} className='rounded-full' />
