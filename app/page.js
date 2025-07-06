@@ -11,8 +11,8 @@ export default function Home() {
           <Navbar/>
         </div>
         <Image src={BackgroundImage} className="absolute right-0 opacity-15 md:top-30 rotate-180 -z-10" alt="bg decoration image"/>
-        <main className="mx-0 sm:mx-10 md:mx-10 lg:mx-45">
-          <section className="xl:px-10">
+        <main className="mx-0 sm:mx-10 md:mx-10 lg:mx-45 lg:mt-27">
+          <section className="xl:px-20">
             <Intro/>
           </section>
 

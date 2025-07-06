@@ -15,11 +15,11 @@ const Intro = () => {
         <div className='flex flex-col items-center justify-center sm:flex-row sm:justify-between mt-20 sm:mt-25 mb-10 mx-0 w-full'>
             <div>
                 <div className='About'>
-                    <div className="available flex border w-fit p-1 rounded-full border-gray-700 text-sm my-2 backdrop-blur-sm">
-                        <Image src={ActiveDot} alt='Active for projects' height={15} width={15}/>
+                    <div className="available flex border w-fit px-1 rounded-full border-gray-700 text-sm my-2 backdrop-blur-sm bg-gray-800">
+                        <Image src={ActiveDot} alt='Active for projects' height={15} width={15} className='animate-pulse'/>
                         <p className='mt-[2px] font-bold mx-1'>Available for new Projects</p>
                     </div>
-                    <div className='name text-5xl font-bold mt-5'>
+                    <div className='name text-5xl lg:text-6xl font-bold mt-5'>
                         <h1>Hi, I'm</h1>
                         <h1>Sourav Kumar</h1>
                     </div>
@@ -68,13 +68,12 @@ const Intro = () => {
                     </Link>
                 </div>
             </div>
-
-            <div className='rounded-full border-2 border-gray-800 w-fit min-w-[250px] shadow-[0_0_45px_rgba(0,0,0,0.7)] m-5 hover:shadow-[0_0_55px_rgba(35,65,81,0.7)] hover:scale-103 transition-all hover:border-gray-700 '>
+            
+            <div className='rounded-full border-2 border-gray-800 w-fit min-w-[250px] shadow-[0_0_35px_rgba(0,0,0,0.7)] m-5 hover:shadow-[0_0_20px_5px_black] hover:scale-103 transition-all hover:border-gray-700'>
                 <div className='rounded-full border-7 border-gray-900 w-fit hover:border-gray-900'>
                     <Image src={Sourav} alt='User Photo' height={250} width={250} className='rounded-full' />
                 </div>
-            </div>
-
+            </div>            
 
         </div>
     )
