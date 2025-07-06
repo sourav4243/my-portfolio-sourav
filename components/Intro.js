@@ -6,17 +6,24 @@ import Link from 'next/link'
 import Typewriter from 'typewriter-effect'
 import GitHub from '@/public/github.svg'
 import LinkedIn from '@/public/linkedin.svg'
+import ActiveDot from '@/public/active-green-dot.svg'
 
 
 
 const Intro = () => {
     return (
-        <div className='flex flex-col items-center justify-center sm:flex-row sm:justify-between mt-25 mb-10 mx-0 md:mx-10 w-full'>
+        <div className='flex flex-col items-center justify-center sm:flex-row sm:justify-between mt-20 sm:mt-25 mb-10 mx-0 w-full'>
             <div>
                 <div className='About'>
-                    <h1 className='text-5xl font-bold'>Hi, I'm</h1>
-                    <h1 className='text-5xl font-bold'>Sourav Kumar</h1>
-                    <div className='flex text-2xl font-bold gap-2 mt-2 flex-wrap'>
+                    <div className="available flex border w-fit p-1 rounded-full border-gray-700 text-sm my-2 backdrop-blur-sm">
+                        <Image src={ActiveDot} alt='Active for projects' height={15} width={15}/>
+                        <p className='mt-[2px] font-bold mx-1'>Available for new Projects</p>
+                    </div>
+                    <div className='name text-5xl font-bold mt-5'>
+                        <h1>Hi, I'm</h1>
+                        <h1>Sourav Kumar</h1>
+                    </div>
+                    <div className='flex text-xl font-bold gap-2 mt-2 flex-wrap'>
                         <h2>I'm a </h2>
                         <h2><Typewriter
                             options={{
@@ -42,7 +49,7 @@ const Intro = () => {
                     </Link>
                     <Link
                         href="#"
-                        className="text-sm px-4 py-2 rounded-lg bg-transparent border border-gray-700 text-white font-medium transition-all duration-300 hover:bg-gray-800 ">
+                        className="text-sm px-4 py-2 rounded-lg bg-transparent border border-gray-700 text-white font-medium transition-all duration-0 md:duration-200 hover:bg-gray-800 active:bg-gray-800">
                         Download Resume
                     </Link>
                 </div>
@@ -50,12 +57,12 @@ const Intro = () => {
                 <div className="social flex gap-3 my-5">
                     <p className='my-auto text-[#9299a7] text-sm'>Socials:</p>
                     <Link href={"https://github.com/sourav4243/"} target='_blank'>
-                        <div className='h-8 w-8 min-h-8 min-w-8 bg-[#16181b] rounded-full p-2 border border-white/[.10] flex justify-center items-center transition-all hover:bg-gray-800 '>
+                        <div className='h-9 w-9 min-h-8 min-w-8 bg-[#16181b] rounded-full p-2 border border-white/[.10] flex justify-center items-center transition-all hover:bg-gray-800 active:bg-gray-800'>
                             <Image src={GitHub} alt='github logo' />
                         </div>
                     </Link>
                     <Link href={"https://www.linkedin.com/in/sourav-kumar-56a6482b4"} target='_blank'>
-                        <div className='h-8 w-8 min-h-8 min-w-8 bg-[#16181b] rounded-full p-2 border border-white/[.10] flex justify-center items-center transition-all hover:bg-gray-800 '>
+                        <div className='h-9 w-9 min-h-8 min-w-8 bg-[#16181b] rounded-full p-2 border border-white/[.10] flex justify-center items-center transition-all hover:bg-gray-800 active:bg-gray-800'>
                             <Image src={LinkedIn} alt='linkedin logo' />
                         </div>
                     </Link>

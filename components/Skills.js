@@ -19,72 +19,10 @@ const Skills = () => {
   return (
     <div className='my-30 w-80vw '> 
         <div>
-            <h1 className='text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-center font-bold text-[var(--primary-color)] py-5'>Skills & Technologies</h1>
-            <p className='text-center text-lg sm:text-xl md:text-2xl lg:text-3xl text-[var(--secondary-color)]'>Technologies I work with</p>
+            <h1 className='text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-center font-bold text-[var(--primary-color)] py-4'>Skills & Technologies</h1>
+            <p className='text-center text-sm sm:text-lg md:text-xl lg:text-2xl text-[var(--secondary-color)]'>Technologies I work with</p>
         </div>
-        {/* <div className="px-[20%] grid grid-cols-4 sm:grid-cols-5 md:grid-cols-4 lg:grid-cols-6 gap-4 py-10 text-center text-[var(--secondary-color)] content-center items-center">
-
-            <div className="bg-gray-800 rounded-sm p-1 border border-[var(--border)] hover:border-[var(--hover-border)] hover:scale-110 transition-all duration-200 ease-in-out hover:text-white justify-self-center">
-                <Image src={CLogo} alt='' height={50} width={50}/>
-                <p>C</p>
-            </div>
-
-            <div className="bg-gray-800 rounded-sm p-1 border border-[var(--border)] hover:border-[var(--hover-border)] hover:scale-110 transition-all duration-200 ease-in-out hover:text-white justify-self-center">
-                <Image src={CppLogo} alt='' height={50} width={50}/>
-                <p>C++</p>
-            </div>
-
-            <div className="bg-gray-800 rounded-sm p-1 border border-[var(--border)] hover:border-[var(--hover-border)] hover:scale-110 transition-all duration-200 ease-in-out hover:text-white justify-self-center">
-                <Image src={CssLogo} alt='' height={50} width={50}/>
-                <p>Css3</p>
-            </div>
-            
-            <div className="bg-gray-800 rounded-sm p-1 border border-[var(--border)] hover:border-[var(--hover-border)] hover:scale-110 transition-all duration-200 ease-in-out hover:text-white justify-self-center">
-                <Image src={FlutterLogo} alt='' height={50} width={50}/>
-                <p>Flutter</p>
-            </div>
-
-            <div className="bg-gray-800 rounded-sm p-1 border border-[var(--border)] hover:border-[var(--hover-border)] hover:scale-110 transition-all duration-200 ease-in-out hover:text-white justify-self-center">
-                <Image src={GitLogo} alt='' height={50} width={50}/>
-                <p>Github</p>
-            </div>
-            
-            <div className="bg-gray-800 rounded-sm p-1 border border-[var(--border)] hover:border-[var(--hover-border)] hover:scale-110 transition-all duration-200 ease-in-out hover:text-white justify-self-center">
-                <Image src={JSLogo} alt='' height={50} width={50}/>
-                <p>Javascript</p>
-            </div>
-
-            <div className="bg-gray-800 rounded-sm p-1 border border-[var(--border)] hover:border-[var(--hover-border)] hover:scale-110 transition-all duration-200 ease-in-out hover:text-white justify-self-center">
-                <Image src={MongoDBLogo} alt='' height={50} width={50}/>
-                <p>MongoDB</p>
-            </div>
-            
-            <div className="bg-gray-800 rounded-sm p-1 border border-[var(--border)] hover:border-[var(--hover-border)] hover:scale-110 transition-all duration-200 ease-in-out hover:text-white justify-self-center">
-                <Image src={NextjsLogo} alt='' height={50} width={50}/>
-                <p>Next.js</p>
-            </div>
-
-            <div className="bg-gray-800 rounded-sm p-1 border border-[var(--border)] hover:border-[var(--hover-border)] hover:scale-110 transition-all duration-200 ease-in-out hover:text-white justify-self-center">
-                <Image src={NodejsLogo} alt='' height={50} width={50}/>
-                <p>Node.js</p>
-            </div>
-            
-            <div className="bg-gray-800 rounded-sm p-1 border border-[var(--border)] hover:border-[var(--hover-border)] hover:scale-110 transition-all duration-200 ease-in-out hover:text-white justify-self-center">
-                <Image src={PostgreLogo} alt='' height={50} width={50}/>
-                <p>Postgre SQL</p>
-            </div>
-
-            <div className="bg-gray-800 rounded-sm p-1 border border-[var(--border)] hover:border-[var(--hover-border)] hover:scale-110 transition-all duration-200 ease-in-out hover:text-white justify-self-center">
-                <Image src={PythonLogo} alt='' height={50} width={50}/>
-                <p>Python</p>
-            </div>
-
-            <div className="bg-gray-800 rounded-sm p-1 border border-[var(--border)] hover:border-[var(--hover-border)] hover:scale-110 transition-all duration-200 ease-in-out hover:text-white justify-self-center">
-                <Image src={TailwindLogo} alt='' height={50} width={50}/>
-                <p>Tailwind Css</p>
-            </div>
-        </div> */}
-
+       
         <div className="grid grid-cols-4 sm:grid-cols-5 md:grid-cols-6 lg:grid-cols-6 xl:grid-cols-8 gap-2 py-5 lg:w-auto justify-self-center-safe text-[var(--secondary-color)] justify-items-center">
             {[
                 { src: CLogo, label: "C" },

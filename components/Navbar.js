@@ -6,7 +6,7 @@ import Code from'@/public/code.svg'
 
 const Navbar = () => {
   return (
-    <header className='w-[80vw] md:w-[70vw] lg:w-[50vw] bg-[#0a0c0f] h-12 md:h-14 flex items-center px-5 py-auto rounded-xl border border-white/[.10] justify-between sm:justify-between md:justify-between mini fixed'>
+    <header className='w-[80vw] md:w-[70vw] lg:w-[50vw] bg-[#0a0c0f] h-12 md:h-14 flex items-center px-5 py-auto rounded-xl border border-white/[.10] justify-between sm:justify-between md:justify-between mini fixed z-1000'>
         <div className='flex items-center gap-4 '>
             <div className='h-8 w-8 min-h-8 min-w-8 bg-[#16181b] rounded-md border border-white/[.10] flex justify-center items-center transition-all hover:scale-110'>
             <Image src={Code} alt='vscode logo'/>
