@@ -2,6 +2,7 @@ import Image from "next/image";
 import Navbar from "@/components/Navbar";
 import BackgroundImage from '@/public/bg-img.png'
 import Intro from "@/components/Intro";
+import Skills from "@/components/Skills"
 
 export default function Home() {
   return (
@@ -10,9 +11,13 @@ export default function Home() {
           <Navbar/>
         </div>
         <Image src={BackgroundImage} className="absolute right-0 opacity-15 md:top-30 rotate-180 -z-10" alt="bg decoration image"/>
-        <main>
-          <section className='mx-0 sm:mx-10 md:mx-10 lg:mx-45'>
+        <main className="mx-0 sm:mx-10 md:mx-10 lg:mx-45">
+          <section className="xl:px-10">
             <Intro/>
+          </section>
+
+          <section>
+            <Skills/>
           </section>
         </main>
       </div>
