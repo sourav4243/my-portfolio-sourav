@@ -1,3 +1,7 @@
+"use client"
+
+import {ReactLenis, useLenis} from "lenis/react";
+
 import Image from "next/image";
 import Navbar from "@/components/Navbar";
 import BackgroundImage from '@/public/bg-img.png'
@@ -5,7 +9,12 @@ import Intro from "@/components/Intro";
 import Skills from "@/components/Skills"
 
 export default function Home() {
+
+  const lenis = useLenis(({scroll})=>{});
+
   return (
+    <ReactLenis root>
+
       <div className="p-5 sm:p-10">
         <div className="w-full flex justify-center">
           <Navbar/>
@@ -21,6 +30,7 @@ export default function Home() {
           </section>
         </main>
       </div>
+    </ReactLenis>
 
     //     <div className="flex gap-4 items-center flex-col sm:flex-row">
     //       {/* <a

@@ -42,5 +42,5 @@ body {
 * {
   -webkit-user-select: none;     /* Safari */
   -webkit-touch-callout: none;   /* iOS Safari: disables long-press menu */
-  user-select: none;             /* Standard */
+  user-select: none;             /* Standard */ 
 }
