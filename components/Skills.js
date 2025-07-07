@@ -19,7 +19,7 @@ import Image from 'next/image'
 
 const Skills = () => {
   return (
-    <div className='my-30 w-80vw '> 
+    <div className='my-30 w-80vw' id='skills'> 
         <div>
             <h1 className='text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-center font-bold text-[var(--primary-color)] py-3'>Skills & Technologies</h1>
             <p className='text-center text-sm sm:text-lg md:text-xl lg:text-2xl text-[var(--secondary-color)]'>Technologies I work with</p>

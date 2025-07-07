@@ -7,7 +7,7 @@ import Skills from "@/components/Skills"
 export default function Home() {
 
   return (
-      <div className="p-5 sm:p-10">
+      <div id="home" className="p-5 sm:p-10">
         <div className="w-full flex justify-center">
           <Navbar/>
         </div>

@@ -15,7 +15,7 @@ const Intro = () => {
         <div className='flex flex-col items-center justify-center sm:flex-row sm:justify-between mt-20 sm:mt-25 mb-10 mx-0 w-full'>
             <div>
                 <div className='About'>
-                    <div className="available flex border w-fit px-1 rounded-full border-gray-700 text-sm my-2 backdrop-blur-sm bg-gray-800">
+                    <div className="available flex border w-fit px-1 rounded-full border-gray-700 text-sm text-[var(--secondary-color)] my-2 bg-gradient-to-br from-gray-900/90 via-gray-700/30 to-gray-900/90 ">
                         <Image src={ActiveDot} alt='Active for projects' height={15} width={15} className='animate-pulse'/>
                         <p className='mt-[2px] font-bold mx-1'>Available for new Projects</p>
                     </div>
